@@ -1,0 +1,56 @@
+.div-one{
+    display: flex;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    overflow-x:scroll;
+}
+.img{
+    width: 15%;
+    height: 150px;
+    background: red;
+    margin: 20px;
+    border-radius: 5px;
+}
+.card {
+    width: 15rem;
+    height: 425px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 170px;
+  }
+  
+  .card-body {
+    padding-top: 1rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container .btn {
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container .btn:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  

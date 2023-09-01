@@ -1,0 +1,8 @@
+span{
+    font-size: 24px;
+}
+.co{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
